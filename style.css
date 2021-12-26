@@ -1,0 +1,58 @@
+body{
+  margin: 12vh;
+  min-height: 100vh;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+  #container{
+    content: "";
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background: black;
+
+    opacity: 0.8;
+  }
+
+    header{
+      text-align: center;
+      color: limegreen;
+    }
+    .buttons{
+      text-align: center;
+      line-height: 30px;
+      margin: 0px auto;
+      background: limegreen;
+      height: 30px;
+      width: 90%
+    }
+
+      .Listamonopattini{
+          color: white;
+      }
+          #progress1{
+              background: orange;
+              border-radius: 5px;
+              height: 20px;
+              width: 300px;
+              padding: 3px;
+          }
+          #progress2{
+            background: limegreen;
+            border-radius: 5px;
+            height: 20px;
+            width: 425px;
+            padding: 3px;
+          }
+          #progress3{
+            background: red;
+            border-radius: 5px;
+            height: 20px;
+            width: 150px;
+            padding: 3px;
+          }
